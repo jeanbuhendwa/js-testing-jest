@@ -3,9 +3,9 @@ const stringLength = (str) => {
     throw new Error("The string cannot be empty");
   }
   if (str.length > 10) {
-    throw new Error("The string is too long");
+    throw new Error("The string cannot be longer than 10");
   }
-  return true;
+  return str.length;
 };
 
 module.exports = stringLength;

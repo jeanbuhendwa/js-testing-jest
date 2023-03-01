@@ -1,15 +1,15 @@
 const stringLength = require("./index");
 
 test("string", () => {
-  expect(stringLength("Hello")).toBe(true);
+  expect(stringLength("Hello")).toBe(5);
 });
 
 test("empty string", () => {
   expect(() => stringLength("")).toThrow("The string cannot be empty");
 });
 
-test("Long string", () => {
-  expect(() => stringLength("sdbfkjskjfsfjslf")).toThrow(
-    "The string is too long"
+test("longer string", () => {
+  expect(() => stringLength("hsgfjgskfsjfsjlf")).toThrow(
+    "The string cannot be longer than 10"
   );
 });

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1677664516986" clover="3.2.0">
-  <project timestamp="1677664516986" name="All files">
+<coverage generated="1677666044684" clover="3.2.0">
+  <project timestamp="1677666044684" name="All files">
     <metrics statements="25" coveredstatements="25" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3" elements="40" coveredelements="40" complexity="0" loc="25" ncloc="25" packages="1" files="3" classes="3"/>
     <file name="calculator.js" path="/Users/jeanjacquesbuhendwa/Desktop/js-testing-jest/calculator.js">
       <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
